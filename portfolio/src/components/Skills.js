@@ -61,7 +61,7 @@ const Skills = () => {
                     </div>
                 </div>
             </div>
-            <img className="background-image-left" src={require("../assets/img/color-sharp.png")} alt="sharp" />
+            <img className="background-image-left" alt="sharp" />
         </section>
     )
 }

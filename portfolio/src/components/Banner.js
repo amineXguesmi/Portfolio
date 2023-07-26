@@ -1,7 +1,5 @@
 import React, { useEffect, useState } from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
-
-
 export const Banner = () => {
     const [loopNum, setLoopNum] = useState(0);
     const [isDeleting, setIsDeleting] = useState(false);
@@ -47,7 +45,7 @@ export const Banner = () => {
                             Welcome to my Portfolio
                         </span>
                         <h1>
-                            {`Hi I'm Software developer `}
+                            {`Your gateway to the decentralized world `}
                         </h1>
                         <h2>
                             <span className='wrap'> {text}</span>

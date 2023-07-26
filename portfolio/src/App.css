@@ -22,7 +22,25 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  overflow: hidden;
+}
 
+* {
+  overflow-y: scroll;
+  scrollbar-width: none;
+  /* Firefox */
+  -ms-overflow-style: none;
+  /* Internet Explorer 10+ */
+}
+
+*::-webkit-scrollbar {
+  display: none;
+  /* Safari and Chrome */
+}
+
+*::-o-scrollbar {
+  display: none;
+  /* Opera */
 }
 
 html {
@@ -456,11 +474,17 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .background-image-left {
   top: 28%;
-  position: absolute;
-  bottom: 0;
+  left: 0;
+  position: fixed;
+  height: 100%;
   width: 40%;
   z-index: -4;
+  background-image: url('./assets/img/color-sharp.png');
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+
 .project {
   padding: 80px 0;
   position: relative;
@@ -544,6 +568,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 0px 0px 0px 0;
 }
+
 .nav-link#projects-tabs-tab-forth {
   border: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 0 55px 55px 0;
@@ -608,6 +633,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   right: 0;
   z-index: -4;
 }
+
 .contact {
   background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
   padding: 60px 0 200px 0;
@@ -692,4 +718,27 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .contact form button:hover::before {
   width: 100%;
+}
+
+.footer {
+  padding: 0 0 50px 0;
+  background-image: url('./assets/img/footer-bg.png');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+
+
+.footer img {
+  width: 26%;
+}
+
+.footer p {
+  font-weight: 400;
+  font-size: 14px;
+  color: #B8B8B8;
+  letter-spacing: 0.5px;
+  margin-top: 20px;
 }

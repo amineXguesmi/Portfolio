@@ -7,13 +7,13 @@ function Project() {
             title: "INSAT-SURVEY",
             description: "C# , .net , SQL , Bootstrap",
             imgUrl: require("../assets/img/project1.png"),
-            githubUrl:"https://github.com/YassDH/ProjetDotNet"
+            githubUrl: "https://github.com/YassDH/ProjetDotNet"
         },
         {
             title: "Portfolio",
             description: "React , Bootstrap",
             imgUrl: require("../assets/img/project2.png"),
-            githubUrl: "#"
+            githubUrl: "https://github.com/amineXguesmi/Portfolio"
 
         },
         {
@@ -59,7 +59,7 @@ function Project() {
             imgUrl: require("../assets/img/progress.png"),
             githubUrl: "#"
 
-            
+
         },
     ];
     const projectsDesktop = [
@@ -72,15 +72,15 @@ function Project() {
     ];
     const projectsBlockchain = [
         {
-            title: "still on work",
-            description: "",
-            imgUrl: require("../assets/img/progress.png"),
-            githubUrl: "#"
+            title: "Zwallet",
+            description: "truffle,web3,react,Solidity ",
+            imgUrl: require("../assets/img/website.png"),
+            githubUrl: "https://github.com/amineXguesmi/z-wallet"
 
         },
     ];
     return (
-        <section className="project" id="project">
+        <section className="project" id="projects">
             <Container>
                 <div>
 

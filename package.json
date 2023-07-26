@@ -2,8 +2,11 @@
   "dependencies": {
     "bootstrap": "^5.2.3",
     "bootstrap-icons": "^1.10.5",
+    "framer-motion": "^10.12.4",
     "react-bootstrap": "^2.7.4",
     "react-bootstrap-icons": "^1.10.3",
-    "react-multi-carousel": "^2.8.3"
+    "react-multi-carousel": "^2.8.3",
+    "react-router-dom": "^6.11.0",
+    "react-router-hash-link": "^2.4.3"
   }
 }
